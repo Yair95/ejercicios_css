@@ -1,0 +1,40 @@
+/* ------ Elementos ----- */
+* {
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+/* ------- Parrafos -------- */
+
+p {
+  color: #555;
+}
+
+/* ------- Solo parrafos en primero ------ */
+
+#primero p {
+  color: #336699;
+}
+
+/* ------- Enlaces -------- */
+
+a {
+  color: #CC3300;
+}
+
+/* ---------- Elementos  en #primero -----------*/
+
+#primero em {
+  background: #FFFFCC; padding: .1em;
+}
+
+/* --------- Todos los elementos em de tipo especial en toda la pagina ----------*/
+
+em.especial {
+  background: #FFCC99; border: 1px solid #FF9900; padding: .1em;
+}
+
+/* ------- Elementos span contenidos en .normal -------- */
+
+.normal span {
+  font-weight: bold;
+}
